@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Now</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shop Now</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Featured Products</h2>
+        <div class="product-card">
+            <h3>Product 1</h3>
+            <p>A brief description of Product 1.</p>
+            <span>$19.99</span>
+        </div>
+        <div class="product-card">
+            <h3>Product 2</h3>
+            <p>A brief description of Product 2.</p>
+            <span>$29.99</span>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Your one-stop shop for all your needs.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shop Now</p>
+    </footer>
+
+    <style>
+        body {
+            background-color: rgb(220, 245, 232);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: #3498db;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        section {
+            padding: 2rem;
+        }
+        
+        .product-card {
+            border: 1px solid #ccc;
+            margin: 1rem 0;
+            padding: 1rem;
+        }
+        
+        form input, form textarea {
+            display: block;
+            margin: 1rem 0;
+            width: 100%;
+        }
+        
+        button {
+            padding: 0.5rem 1rem;
+            background: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+
+    </style>
+</body>
+</html>
