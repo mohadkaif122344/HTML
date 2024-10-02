@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Eats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Eats</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Spaghetti Carbonara</h3>
+            <p>A classic Italian pasta dish.</p>
+            <span>$12.99</span>
+        </div>
+        <div class="menu-item">
+            <h3>Margherita Pizza</h3>
+            <p>Delicious pizza with fresh basil and mozzarella.</p>
+            <span>$10.99</span>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We offer the finest dining experience with a blend of traditional and modern cuisine.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Eats</p>
+    </footer>
+   <style>
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background: #e74c3c;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    section {
+        padding: 2rem;
+    }
+    
+    .menu-item {
+        border: 1px solid #ccc;
+        margin: 1rem 0;
+        padding: 1rem;
+    }
+    
+    form input, form textarea {
+        display: block;
+        margin: 1rem 0;
+        width: 100%;
+    }
+    
+    button {
+        padding: 0.5rem 1rem;
+        background: #e74c3c;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+   </style>
+
+</body>
+</html>
